@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dir: {
       input: '_site',
+      includes: '_layouts',
       output: 'dist'
     }
   }
